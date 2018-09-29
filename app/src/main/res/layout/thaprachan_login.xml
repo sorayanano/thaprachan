@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".login">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="208dp"
+        app:srcCompat="@drawable/header" />
+
+    <ImageView
+        android:id="@+id/retangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="104dp"
+        app:srcCompat="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="320dp"
+        android:layout_height="95dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/thaprachanlogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonpublic"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="250dp"
+            android:background="@drawable/buttonretangle"
+            android:text="ผู้ใช้งานทั่วไป"
+            android:fontFamily="@font/prompt"
+            android:textColor="@android:color/white" />
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="50dp"
+            app:srcCompat="@drawable/line" />
+
+        <TextView
+            android:id="@+id/textsignin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="สมาชิกเข้าสู่ระบบ"
+            android:fontFamily="@font/prompt"
+            android:textAlignment="center"
+            android:textColor="@android:color/white" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            tools:boxBackgroundMode="none">
+
+            <AutoCompleteTextView
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/fields"
+                android:paddingLeft="15dp"
+                android:text="username"
+                android:fontFamily="@font/prompt"
+                android:textColor="@android:color/white" />
+        </android.support.design.widget.TextInputLayout><![CDATA[
+
+
+
+        /whi" username"
+        android:text=" "
+        android:tex />
+
+
+
+
+
+        ]]>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/fields"
+                android:ems="10"
+                android:paddingLeft="15dp"
+                android:text="password"
+                android:fontFamily="@font/prompt"
+                android:textColor="@android:color/white" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/buttonsignin"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/buttonretangle"
+            android:text="SIGN IN"
+            android:fontFamily="@font/prompt"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="ลืมรหัสผ่าน?"
+            android:fontFamily="@font/prompt"
+            android:textColor="@android:color/white" />
+
+        />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".thaprachan_menu3">
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            app:srcCompat="@drawable/headhome" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="35dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="-50dp"
+            android:background="@drawable/icouser" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/prompt"
+            android:text="ข่าวประชาสัมพันธ์"
+            android:textColor="@android:color/white"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="-15dp"
+        android:layout_marginTop="-20dp"
+        android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/news1" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-75dp"
+                    android:fontFamily="@font/prompt"
+                    android:text="ประกาศย้ายสำนักงานท่าพระจันทร์ดอทคอมชั่วคราว"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/prompt"
+                    android:text="22/9/2561"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-5dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/prompt"
+                    android:text="จากที่อยู่เลขที่ 108  ไปเลขที่ 83 บ้านริมน้ำ เพื่อปรับปรุงสำนักงานเดิมใหม่ เป็นระยะเวลาประมาณ 10 วัน ขออภัยในความไม่สะดวก… อ่านต่อ"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="-50dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    app:srcCompat="@drawable/news" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="270dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-75dp"
+                    android:fontFamily="@font/prompt"
+                    android:text="หนังสือสุดยอดพระเครื่องเมืองสยาม ประจำเดือนกันยายนวางแผงจำหน่ายแล้ว!"
+                    android:textColor="@android:color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/prompt"
+                    android:text="22/9/2561"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-15dp"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/prompt"
+                    android:text="สอบถามรายละเอียดเพิ่มเติมได้ที่เบอร์โทร 0992522234"
+                    android:textAlignment="textStart"
+                    android:textColor="@android:color/white"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="595dp"
+        android:background="@drawable/rectanglehome">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icopra"
+            android:textColorLink="@android:color/holo_orange_dark" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icosale"
+            android:textColorLink="@android:color/holo_orange_dark" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="205dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icoser"
+            android:textColorLink="@android:color/holo_orange_dark" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/iconew"
+            android:textColorLink="@android:color/holo_orange_dark" />
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>
